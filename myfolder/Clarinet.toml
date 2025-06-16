@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/dynamic_calculator.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.risk-pool-manager]
+path = 'contracts/risk-pool-manager.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
